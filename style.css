@@ -1,26 +1,25 @@
- * {
-    outline: dotted 1px black;
-  } 
-
 body {
-    border: solid 1px black;
-    background-color: white; 
-    margin: auto;
-    max-width: 960px;
+  border: 1px black;
+  background-color: white; 
+  margin: auto;
+  max-width: 960px;
 }
 
 header {
-    background-color: salmon;
-    border: solid 2px red;
-    height: 150px;
-    position: relative;
-    
+
+  margin-left:60 px;
+  background-color: white;
+  
+  height: 120px;
+  position: relative;
+  
+  
 }
 
 #logo{
   position: absoute;
-  margin-top: 40px;
-  margin-left: 20px;
+  padding-left: 60px;
+  padding-top: 40px;
   width: 50px;
   height: 50px;
 }
@@ -30,68 +29,267 @@ header {
 }
 
 #header_div{
-  border: 1px solid black;
-  height: 150px;
+
+  height: 70px;
   position: relative;
+  margin-left: 0px;
   width: 300px;
   display: inline-block;
 }
 
 #header1{
   width: 200px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
   height: 10px;
-  margin-top: 40px;
-  margin-left: 10px;
-  float: right;
-  border: 1px solid black;
+  margin-top: -50px;
+  margin-left: 110px;
+ 
+
 }
 
 #header2{
-  font-size: 10px;
-  width: 200px;
+  font-size: 15px;
+  font-family: 'Chathura', sans-serif;
+  width: 185px;
   height: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: -5px;
   float: right;
-  border: 1px solid black;
+
 }
 
 #header_icons{
-  border: 1px green solid;
-  width: 200px;
-  height: 50px;
+
+  width: 240px;
+  height: 30px;
   display: inline-block;
+  padding-top: 40px;
   text-align:right;
+}
+
+#icon_6 {
+ 
+  float: left;
+
 }
 
 section{
   width: 400px;
   height: 200px;
-  border: blue 1px solid;
   float: right;
+  margin: 0;
+  
 }
 
 #section_title{
   width: 960px;
-  height: 30px;
-  border: blue 1px solid;
-  background: pink;
-  padding-top: 0px;
+  height: 100px;
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+ 
+
 }
 
 #under_title{
-  width: 850px;
-  height: 20px;
-  border: blue 1px solid;
+  font-family: 'Chathura', sans-serif;
+  font-size: 22px;
+  width: 840px;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 0px;
+  
+    
+}
+
+#line_slash {
+
+  width:900px;
+
+  height: 10px;
+  margin-bottom: 80px;
   display: inline-block;
 }
 
-#section_title p{
-  display: inline-block;
+#slash {
+  color: transparent;
+  width: 900px;
+  height: 10px;
+  background: repeating-linear-gradient(
+
+  45deg,
+  white,
+  white 1px,
+  black 2px,
+  black 1px
+
+  );
+  min-height: 100%;
+  margin-left: 0px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
+
 
 h1{
-  height: 50px;
-  border: 1px black solid;
+
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  
+}
+
+#section_print {
+  font-family: 'Chathura', sans-serif;
+  font-size: 22px;
+  width:30px;
+  float: right;
   margin: 0px;
+}
+
+#print {
+position: absolute;
+}
+
+main {
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+  text-indent: 20px;
+  margin-left: 0 px;
+  clear: right;
+  line-height: 1.6;
+}
+
+#cp {
+float: right;
+display : block;
+margin-bottom: 20px;
+
+}
+
+p {
+
+  clear: right;
+  
+  
+  
+  margin-left: 60px;
+  
+  
+}
+
+#section_recipe {
+ 
+  margin-left:60px;
+  border: solid 10px black;
+  width: 900px;
+  height: 500px;
+  background-color: salmon;
+  position: relative;
+}
+
+#list {
+  margin-left:60px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: absolute;
+  display: inline-block;
+  opacity: 1;
+ 
+}
+
+#checklist_c1 {
+  
+  margin-left: 120px;
+  position: absolute;
+  
+}
+
+#damper {
+  text-align: left;
+  margin-left: 400px;
+  position: absolute;
+  width: 300px;
+
+}
+
+li {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 18px;
+  padding: 10px;
+}
+article {
+
+  margin-left:60px;
+  margin-top: 350px;
+  
+
+}
+
+#van{
+    text-align:left;
+  display: inline-block;
+  margin:0;
+
+}
+
+h2 {
+
+  display:inline-block;
+  position: absolute;
+  margin-top: 0px;
+  padding-left: 10px;
+
+
+}
+
+#van_bio {
+  display:inline-block;
+  margin: 0px;
+  padding-left: 10px;
+  width: 550px;
+}
+
+#recipe {
+
+  background-color: salmon;
+  color: white;
+  display:inline-block;
+  width: 210px;
+  height : 40px;
+  text-align: center;
+  margin-top: 5px;
+  padding-right: 50px;
+  
+  padding-bottom: 10px;
+  font-family: 'Thasadith', sans-serif;
+  font-size: 15px;
+  font: bold;
+  font: message-box;
+   
+
+}
+
+#box {
+
+  border-bottom: solid 1px rgb(58, 56, 56);
+  margin-top : 60px;
+  margin-left : 60px;
+  height: 15px;
+  text-align: center;
+  font-size: 10px;
+
+}
+
+footer {
+
+  margin-left: 60px;
+  margin-top: 60px;
+  text-align: center;
+  padding-top:-20px;
+  display: inline-block;
+  width: 900px;
+
 }
